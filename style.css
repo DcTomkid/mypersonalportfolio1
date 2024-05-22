@@ -226,7 +226,7 @@ span {
 }
 .contact-email {
     border-radius: 20px;
-    width: 35%; 
+    width: 45%; 
     height: 10%;
     /* margin-left: 20em; */
     position: relative;
@@ -235,11 +235,55 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
     gap: 3em;
-    padding: 1em 5em;
+    padding: 1em 2em ;
+    margin: 0;
     border: 2px solid grey;
     border-radius: 25px;
     position: absolute;
     top: 20px;
-    left: 22em;
+    left: 20em;
+}
+.content-text p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: .5em;
+}
+.footer {
+    gap: 2em;
+    margin-top: 18em;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+        list-style: none;
+    }
+     li {
+            padding: 10px 16px;
+        }
+    
+    li a {
+            color: darkslategray;
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: -3%;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+    
+    li a:hover {
+            color: rgb(230, 104, 59);
+        }
+
+    p {
+        text-align: center;
+        color: grey;
+        margin-top: 2em;
+        margin-bottom: 0em;
+    }
 }

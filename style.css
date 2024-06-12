@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body {
     /* width: 100%; */
     background: url(./pic/bg.jpg);
@@ -12,6 +15,12 @@ body {
 }
 span {
     color: orange;
+}
+footer{
+    background-color: red;
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
 }
 .main {
     width: 100%;
@@ -254,7 +263,7 @@ span {
 }
 .footer {
     gap: 2em;
-    margin-top: 18em;
+    margin-top: 0em;
 
     ul {
         display: flex;
